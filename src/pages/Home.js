@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Home.css";
+import image from "../assets/Afrotennis_white.png";
 
 const Home = () => {
   return (
     <div>
-      <h1>WELCOME</h1>
-      <img src="../images/Afrotennis_white.png" alt="" />
+      <h1>COURT UNDER CONSTRUCTION</h1>
+      <img src={image} alt="logo" className="logo-home" />
     </div>
   );
 };
