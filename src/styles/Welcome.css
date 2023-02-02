@@ -1,0 +1,43 @@
+@keyframes opacity-in {
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-image: url(../assets/test-eye.jpg);
+    background-size: 70%, 100%;
+    background-position: center;
+    background-position: top, 10%;
+
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.logo-welcome {
+    width: 20%;
+    display: block;
+    margin-left: 10%;
+    margin-top: 10%;
+    opacity: 0.01;
+    animation: opacity-in 7.5s forwards;
+}
+
+
+
+.btn-welcome {
+    display: block;
+    margin-left: 18%;
+    margin-top: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.01;
+    animation: opacity-in 7.5s forwards;
+}
