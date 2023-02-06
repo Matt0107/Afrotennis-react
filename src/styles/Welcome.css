@@ -25,12 +25,15 @@ h1 {
     margin-left: 10%;
     margin-top: 10%;
     opacity: 0.01;
-    animation: opacity-in 7.5s forwards;
+    animation: opacity-in 5s forwards;
 }
 
 
+a {
+    text-decoration: none;
+}
 
-.btn-welcome {
+a .btn-welcome {
     display: block;
     margin-left: 18%;
     margin-top: 2%;
@@ -40,4 +43,5 @@ h1 {
     padding: 10px;
     opacity: 0.01;
     animation: opacity-in 7.5s forwards;
+    cursor: pointer;
 }

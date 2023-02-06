@@ -6,7 +6,9 @@ const Welcome = () => {
   return (
     <div>
       <img src={image} alt="logo" className="logo-welcome" />
-      <button className="btn-welcome">ENTER</button>
+      <a href="/Home">
+        <button className="btn-welcome">ENTER</button>
+      </a>
     </div>
   );
 };
