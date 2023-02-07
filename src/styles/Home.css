@@ -6,6 +6,29 @@ p {
 .text {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items: left;
+}
 
+.text h1 {
+    width: 50%;
+}
+
+.text p {
+    width: 50%;
+}
+
+.extern-link {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.svg-link-icons {
+    width: 10%;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
 }
