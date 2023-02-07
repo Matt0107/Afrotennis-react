@@ -1,0 +1,11 @@
+p {
+    color: white;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}

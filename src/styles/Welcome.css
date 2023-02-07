@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url(../assets/test-eye.jpg);
-    background-size: 70%, 100%;
-    background-position: center;
-    background-position: top, 10%;
+    background-image: url(../assets/test3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 
 }
