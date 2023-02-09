@@ -4,10 +4,11 @@
     }
 }
 
-body {
+.welcome-page {
     background-image: url(../assets/test3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1000px;
 
 
 
